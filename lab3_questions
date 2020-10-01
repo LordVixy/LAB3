@@ -1,0 +1,2 @@
+4.	Il y a 3 fichiers et un répertoire
+5.	La taille du répertoire "sardar" n'est pas correcte,en effet elle est  de 4ko alors que les fichiers à l'intérieur sont beaucoup plus lourds. Cela peut s'expliquer par le fait que le dossier "sardar" est représenté comme un fichier sous Linus.

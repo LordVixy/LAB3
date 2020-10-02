@@ -1,2 +1,33 @@
 4.	Il y a 3 fichiers et un répertoire
-5.	La taille du répertoire "sardar" n'est pas correcte,en effet elle est  de 4ko alors que les fichiers à l'intérieur sont beaucoup plus lourds. Cela peut s'expliquer par le fait que le dossier "sardar" est représenté comme un fichier sous Linus.
+5.	La taille du répertoire "sardar" n'est pas correcte,en effet elle est  de 4ko alors que les fichiers à l'intérieur sont beaucoup plus lourds. Cela peut s'expliquer par le fait que le dossier "sardar" est représenté comme un fichier sous Linus
+6.	On remarque que la taille du ficher Microsoft avec la commande "du -hs" est plus petite qu'avec la commande "ls". Nous pouvons déduire que sur le disque dur, la place du fichier est comprimé.
+7.	En utilisant la commande "stat Microsoft" nous pouvons voir la taille réele du fichier sur disque dur, son nombre de partitions, son ID et le timing des accès.
+8.	En utilisant la commande "ls -a" nous pouvons voir le fichier caché .lightbulb
+9.	"ls -lrt"
+10.	"ls -lrs"
+11.	"cat answering-machine.txt"
+12.	"more answering-questions.txt"
+13.	Vim déja pré-instalé
+14.	Text rajouté
+15.	Mot "gravely" supprimé du text
+16.	Fichier sauvegardé
+17.	"/planet" puis la commande "n", nous remarquons qu'il y a deux occurences du mot planet
+18.	En dessendant en bas et en utilisant la commande "?BEEP", en utilisant la commande "n", nous remontons le fichier en parcourant tous les mots "BEEP"
+20.	"tail sardar.txt -n 20"
+21.	"grep trust Microsoft"
+22.	"grep -r money"
+23.	"grep -r Money"
+24.	"mv .lightbulb lightbulb"
+25.	"ls"
+26.	"mv sardar3.txt .."
+27.	"cd .."
+28.	"rm Microsoft"
+29.	"mkdir archive && cp -a ~/LAB3 ~/archive"
+30. 	"ln -s sardar/* ./"
+31	en utilisant la commande "ls", nous pouvons voir les liens facilement car ils sont d'une couleur bleu clair.
+32.	"rm ~/sardar/sardar2.txt", en effectuant la commande "ls" dans LAB3, nous pouvons voir que le lien symbolique sardar2.txt est maintenant affiché en rouge.
+33.	"vim ~/sardar/sardar1.txt" -> text à la fin rajouté. Nous pouvons remarquer qu'en ouvrant le lien symbolique  sardar1.txt dans le fichier parent LAB3 avec la commande "vim sardar1.txt", le dernier comporte notre modification. Nous deduisons que le lien symbolique est just un shortcut d'un autre fichier.
+34.	"ls -lrt" pour voir les droits d'accès. On constate qu'on a le droit seulement de lire. 
+35.	"chmod u+w sardar1.txt"
+36.	"tar cvf LAB3.tar /home" et "bzip2 LAB3.tar"
+37.	"tar -tvf LAB3.tar.bz2"	
